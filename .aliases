@@ -42,6 +42,8 @@ function check(){
   git checkout $*
 }
 
+alias ll='ls -alFh'
+alias la='ls -A'
 alias via="vi app/"
 alias schumi="cd ~/workspace/schumi"
 alias editbash="vi ~/.bashrc"
