@@ -75,3 +75,4 @@ alias hint='.npm/jshint/2.1.10/package/bin/jshint'
 alias gitclean="git clean -fd"
 alias startsolr="sudo service tomcat7 start"
 alias branches="git for-each-ref --sort=-committerdate refs/heads/ --format=' • %1B[0;32m %(committerdate:relative)%1B[m-— %1B[1;30m%(refname)%1B[m' | sed 's/refs\/heads\///g' | column -t -s '-'"
+alias fuck='sudo $(history -p \!\!)'
