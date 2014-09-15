@@ -1,4 +1,4 @@
-echo -e '⇢  Installing all the shit, it may need your password! (-;'
+echo -e '⇢  Installing all the Linux shit, it may need your password! (-;'
 
 #primary shit
 sudo apt-get install curl git mercurial make binutils bison gcc build-essential
