@@ -28,6 +28,7 @@ sudo bash < < (curl http://npmjs.org/install.sh | sh)
 #npm shit
 sudo npm install -g n
 sudo npm install -g spot
+sudo npm install -g hicat 
 sudo npm install -g gulp
 sudo npm install -g grunt-cli
 sudo npm install -g coffee-script
