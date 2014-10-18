@@ -26,7 +26,8 @@ sudo curl -sSL https://get.rvm.io | bash -s stable
 sudo rvm install 1.9.2
 sudo rvm install 1.9.3
 sudo rvm install 2.1.3 #stable
-sudo apt-get install irb rdoc
+sudo rvm get stable
+sudo apt-get install rubygems irb rdoc
 gem install rails
 gem install sinatra
 gem install padrino
