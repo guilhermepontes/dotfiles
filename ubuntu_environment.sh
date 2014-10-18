@@ -21,13 +21,11 @@ source ${HOME}/.gvm/scripts/gvm
 gvm install go1.2
 gvm use go1.2 --default
 
-#rvm
+#rvm && ruby
 sudo curl -sSL https://get.rvm.io | bash -s stable
 sudo rvm install 1.9.2
 sudo rvm install 1.9.3
 sudo rvm install 2.1.3 #stable
-
-#ruby
 sudo apt-get install irb rdoc
 
 #npm
