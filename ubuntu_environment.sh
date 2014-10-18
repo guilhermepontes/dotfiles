@@ -22,7 +22,7 @@ gvm install go1.2
 gvm use go1.2 --default
 
 #rvm
-sudo bash < <(curl -sSL https://get.rvm.io | bash -s stable)
+sudo curl -sSL https://get.rvm.io | bash -s stable
 
 #npm
 sudo bash < < (curl http://npmjs.org/install.sh | sh)
