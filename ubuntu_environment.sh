@@ -23,6 +23,9 @@ gvm use go1.2 --default
 
 #rvm
 sudo curl -sSL https://get.rvm.io | bash -s stable
+sudo rvm install 1.9.2
+sudo rvm install 1.9.3
+sudo rvm install 2.1.3 #stable
 
 #npm
 sudo bash < < (curl http://npmjs.org/install.sh | sh)
