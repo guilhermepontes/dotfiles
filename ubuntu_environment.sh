@@ -13,10 +13,12 @@ sudo apt-get install -y vim
 sudo apt-get install -y tmux
 
 #node
-sudo bash < <(curl -sL https://deb.nodesource.com/setup)
+sudo apt-get install nodejs
 
 #gvm && go
 bash < <(curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+source ${HOME}/.gvm/scripts/gvm
+gvm install go1.2
 gvm use go1.2 --default
 
 #rvm
