@@ -17,12 +17,13 @@ sudo apt-get install nodejs
 
 #gvm && go
 bash < <(curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
-source ${HOME}/.gvm/scripts/gvm
+source $HOME/.gvm/scripts/gvm
 gvm install go1.2
 gvm use go1.2 --default
 
 #rvm && ruby
 sudo curl -sSL https://get.rvm.io | bash -s stable
+sudo echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> $HOME/.bash_profile
 sudo rvm install 1.9.2
 sudo rvm install 1.9.3
 sudo rvm install 2.1.3 
