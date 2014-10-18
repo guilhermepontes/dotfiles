@@ -54,3 +54,7 @@ sudp npm install -g commander
 #python shit
 easy_install pip
 pip install virtualenvwrapper
+
+#vlc
+sudo apt-get update
+sudo apt-get install vlc browser-plugin-vlc
