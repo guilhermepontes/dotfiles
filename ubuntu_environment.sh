@@ -28,9 +28,9 @@ sudo rvm install 1.9.3
 sudo rvm install 2.1.3 
 rvm install ruby --latest #stable
 sudo apt-get install rubygems irb rdoc
-gem install rails
-gem install sinatra
-gem install padrino
+sudo gem install rails
+sudo gem install sinatra
+sudo gem install padrino
 
 #npm
 sudo bash < < (curl http://npmjs.org/install.sh | sh)
