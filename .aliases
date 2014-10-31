@@ -6,7 +6,7 @@ function work(){
   cd ~/workspace/$1
 }
 
-function colormmit(){
+function commit(){
   git commit -m "$*"
 }
 
