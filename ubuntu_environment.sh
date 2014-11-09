@@ -64,3 +64,6 @@ pip install virtualenvwrapper
 #vlc
 sudo apt-get update
 sudo apt-get install vlc browser-plugin-vlc
+
+#vim janus
+curl -Lo- https://bit.ly/janus-bootstrap | bash
