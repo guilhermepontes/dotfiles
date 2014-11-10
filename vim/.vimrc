@@ -4,7 +4,7 @@ color zellner
 " map leader
 let mapleader = ","
 
-" nerd tree
+" nerd tree config
 map <leader>n :NERDTreeToggle<cr>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
