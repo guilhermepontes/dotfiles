@@ -8,7 +8,6 @@
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   aa = add .
   who = shortlog -sn
-  ninja = add . && git commit
 [mergetool "sublime"]
   cmd = subl -w $MERGED
   trustExitCode = false
