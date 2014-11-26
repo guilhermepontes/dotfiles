@@ -1,5 +1,5 @@
 " colorscheme
-color zellner
+color jellybeans
 
 " map leader
 let mapleader = ","
