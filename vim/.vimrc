@@ -16,3 +16,5 @@ set write
 set ts=2
 set expandtab
 set list
+set cursorline
+set cursorline
