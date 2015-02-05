@@ -1,0 +1,55 @@
+function dev(){
+  cd ~/dev/$1
+}
+
+function ip(){
+  ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}'
+}
+
+function htmlCheck(){
+  curl http://validator.w3.org/check -sS -F output=json -F uploaded_file=@$1 | pjson
+}
+
+function work(){
+  cd ~/workspace/$1
+}
+
+function commit(){
+  git commit -m "$1"
+}
+
+function push(){
+  git push $*
+}
+
+function pull(){
+  git pull $*
+}
+
+function amend(){
+  git commit --amend -m "$*"
+}
+
+function  clone(){
+  git clone $*
+}
+
+function tnew(){
+  tmux new -s $1
+}
+
+function add(){
+  git add $*
+}
+
+function release(){
+  git tag -a $1 -m "Release $1" && git push --tags
+}
+
+function check(){
+  git checkout $*
+}
+
+function vi(){
+  mvim $*
+}
