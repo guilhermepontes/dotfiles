@@ -1,15 +1,3 @@
-function dev(){
-  cd ~/dev/$1
-}
-
-function ip(){
-  ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}'
-}
-
-function htmlCheck(){
-  curl http://validator.w3.org/check -sS -F output=json -F uploaded_file=@$1 | pjson
-}
-
 function work(){
   cd ~/workspace/$1
 }
@@ -30,12 +18,16 @@ function amend(){
   git commit --amend -m "$*"
 }
 
-function  clone(){
+function clone(){
   git clone $*
 }
 
 function tnew(){
   tmux new -s $1
+}
+
+function go(){
+  cd ~/workspace/$1
 }
 
 function add(){
@@ -46,10 +38,14 @@ function release(){
   git tag -a $1 -m "Release $1" && git push --tags
 }
 
+function sobeviado(){
+  vagrant destroy --force; vagrant box update; vagrant up && vagrant ssh
+}
+
 function check(){
   git checkout $*
 }
 
-function vi(){
-  mvim $*
+function chrome(){
+  open -a "Google Chrome" $1
 }
