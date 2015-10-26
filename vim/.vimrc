@@ -63,6 +63,7 @@ let mapleader = ","
 " ============================================================================
 map <leader>n :NERDTreeToggle<cr>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+let NERDTreeShowHidden=1
 
 
 " ============================================================================
