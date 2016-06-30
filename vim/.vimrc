@@ -10,7 +10,9 @@
 " Leaving favorites commented out for easy switching
 " ============================================================================
 
-colorscheme github
+colorscheme autumn
+"colorscheme gentooish
+"colorscheme github
 "colorscheme jellybeans
 "colorscheme base16-chalk
 "colorscheme base16-default
@@ -35,7 +37,9 @@ colorscheme github
 " ============================================================================
 " Font
 " ============================================================================
-set guifont=Source\ Code\ Pro:h15
+set guifont=Source\ Code\ Pro\ Light:h17
+"set guifont=Fira\ Code:h14
+"set guifont=Operator\ Mono:h14
 
 
 " ============================================================================
@@ -44,6 +48,7 @@ set guifont=Source\ Code\ Pro:h15
 
 " Ensure indent is on
 filetype plugin indent on
+filetype plugin on
 
 " Associate the .es6 file extension with JavaScript
 "
@@ -67,14 +72,24 @@ let NERDTreeShowHidden=1
 
 
 " ============================================================================
+" GitGutter
+" ============================================================================
+let g:gitgutter_max_signs = 999999
+
+" ============================================================================
 " Defaults
 " ============================================================================
 set noswapfile
+set macligatures
+set transparency=20
 set nu
 set mouse=a
 set write
 set wrap
-set ts=2
+set ts=4
+set shiftwidth=4
 set expandtab
+set cursorline
+set guioptions-=r
 set list
 nnoremap <C-esc> :noh<return><esc>
