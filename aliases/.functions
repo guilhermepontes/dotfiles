@@ -38,14 +38,6 @@ function release(){
   git tag -a $1 -m "Release $1" && git push --tags
 }
 
-function sobeviado(){
-  vagrant destroy --force; vagrant box update; vagrant up && vagrant ssh
-}
-
-function check(){
-  git checkout $*
-}
-
 function chrome(){
   open -a "Google Chrome" $1
 }
