@@ -1,0 +1,15 @@
+{
+  "editor.fontSize": 15,
+  "editor.fontFamily": "SF Mono",
+  "editor.fontWeight": "100",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 0.2,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.quickSuggestionsDelay": 2,
+  
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+
+  "vim.hlsearch": true
+}
