@@ -7,9 +7,6 @@
   "editor.rulers": [80],
   "editor.tabSize": 2,
   "editor.quickSuggestionsDelay": 2,
-  
-  "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
-
   "vim.hlsearch": true
 }
