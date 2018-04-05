@@ -20,7 +20,6 @@ alias s="sudo"
 alias q="exit"
 alias chromebye="killall chrome"
 alias byechrome="killall chrome"
-alias mongofix="sudo mongod --fork --logpath /var/log/mongodb.log --logappend"
 alias clean="git clean -fd"
 alias branches="git for-each-ref --sort='-committerdate:relative' --format=' • %1B[0;32m %(committerdate:relative)%1B[m — %1B[1;30m%(refname:short)%1B[m' refs/heads"
 alias fuck='sudo $(fc -ln -1)'
