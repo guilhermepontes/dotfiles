@@ -86,8 +86,8 @@ set nu
 set mouse=a
 set write
 set wrap
-set ts=4
-set shiftwidth=4
+set ts=2
+set shiftwidth=2
 set expandtab
 set cursorline
 set guioptions-=r
