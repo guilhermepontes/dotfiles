@@ -1,12 +1,52 @@
+
 {
-  "editor.fontSize": 15,
-  "editor.fontFamily": "SF Mono",
-  "editor.fontWeight": "100",
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 22,
-  "editor.rulers": [80],
-  "editor.tabSize": 2,
-  "editor.quickSuggestionsDelay": 2,
-  "files.trimTrailingWhitespace": true,
-  "vim.hlsearch": true
-}
+    "editor.fontFamily": "SF Mono",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 28,
+    "terminal.integrated.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.fontWeight":"500",
+    "editor.rulers": [80],
+    "editor.tabSize": 2,
+    "editor.quickSuggestionsDelay": 2,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": true,
+
+    "files.autoSave": "off",
+    "files.trimTrailingWhitespace": true,
+
+    "vsicons.projectDetection.autoReload": true,
+
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "Hack",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "markdown.preview.fontFamily": "'SF Mono', sans-serif",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.colorTheme": "Kay Light",
+    "extensions.ignoreRecommendations": true,
+    "editor.renderIndentGuides": false,
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#252526",
+      "statusBar.noFolderBackground": "#252526",
+      "statusBar.debuggingBackground": "#511f1f"
+    },
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressUpdateNotice": false,
+      "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "alternate"
+  }
