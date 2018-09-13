@@ -1,4 +1,5 @@
 alias vi=vim
+alias cat=bat
 alias ll='ls -alFh'
 alias la='ls -A'
 alias c=commit
