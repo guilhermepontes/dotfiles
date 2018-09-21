@@ -50,12 +50,6 @@ set guifont=Source\ Code\ Pro\ Light:h17
 filetype plugin indent on
 filetype plugin on
 
-" Associate the .es6 file extension with JavaScript
-"
-" The `.es6` is used by 6to5 (and, by extension, Sprockets) which turns ES6+
-" code into ES5.
-autocmd BufRead,BufNewFile *.es6 setfiletype javascript
-
 
 " ============================================================================
 " Map Leader
