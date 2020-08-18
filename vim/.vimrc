@@ -1,15 +1,4 @@
-" ============================================================================
-" Janus-related vimrc.
-"
-" Runs after Janus is loaded.
-" ============================================================================
-
-" ============================================================================
-" colorschemes
-"
-" Leaving favorites commented out for easy switching
-" ============================================================================
-
+"  Color Schemes
 colorscheme autumn
 "colorscheme gentooish
 "colorscheme github
@@ -34,45 +23,28 @@ colorscheme autumn
 "colorscheme Tomorrow-Night-Eighties
 "colorscheme Tomorrow-Night
 
-" ============================================================================
 " Font
-" ============================================================================
 set guifont=Source\ Code\ Pro\ Light:h17
 "set guifont=Fira\ Code:h14
 "set guifont=Operator\ Mono:h14
 
 
-" ============================================================================
 " FileType settings
-" ============================================================================
-
-" Ensure indent is on
 filetype plugin indent on
 filetype plugin on
 
-
-" ============================================================================
 " Map Leader
-" ============================================================================
 let mapleader = ","
 
-
-" ============================================================================
 " NERDTree
-" ============================================================================
 map <leader>n :NERDTreeToggle<cr>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let NERDTreeShowHidden=1
 
-
-" ============================================================================
 " GitGutter
-" ============================================================================
 let g:gitgutter_max_signs = 999999
 
-" ============================================================================
 " Defaults
-" ============================================================================
 set noswapfile
 set macligatures
 set transparency=20
