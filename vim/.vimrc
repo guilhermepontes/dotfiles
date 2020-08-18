@@ -28,7 +28,6 @@ set guifont=Source\ Code\ Pro\ Light:h17
 "set guifont=Fira\ Code:h14
 "set guifont=Operator\ Mono:h14
 
-
 " FileType settings
 filetype plugin indent on
 filetype plugin on
