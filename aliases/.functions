@@ -2,6 +2,10 @@ function work(){
   cd ~/workspace/$1
 }
 
+function pushc() {
+  git push origin HEAD
+}
+
 function commit(){
   git commit -m "$1"
 }
